@@ -28,7 +28,7 @@ repairPanel(){
     php artisan up
 }
 while true; do
-    read -p "apakah kamu yakin untuk mengUninstall theme ? [y/n] " yn
+    read -p "apakah kamu yakin untuk menguninstall theme ? [y/n] " yn
     case $yn in
         [Yy]* ) repairPanel; break;;
         [Nn]* ) exit;;
